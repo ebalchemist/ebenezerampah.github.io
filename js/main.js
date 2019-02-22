@@ -2,14 +2,15 @@ var reservationData = {};
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyC0D9YD9P2MHebt2EbXxqldb9Z8kFMCklY",
-  authDomain: "restaurant-site.firebaseapp.com",
-  databaseURL: "https://restaurant-site.firebaseio.com",
-  storageBucket: "restaurant-site.appspot.com",
+  apiKey: "AIzaSyC-6c0jtoqxiOtTed3zmEnaFLnoAot4u8k",
+  authDomain: "restaurant-site-638ca.firebaseapp.com",
+  databaseURL: "https://restaurant-site-638ca.firebaseio.com",
+  projectId: "restaurant-site-638ca",
+  storageBucket: "restaurant-site-638ca.appspot.com",
 };
-
 firebase.initializeApp(config);
 
+// Connect to Database
 var database = firebase.database();
 
 // set the day when an option is clicked on
