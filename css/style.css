@@ -8,16 +8,17 @@
 
 .restaurant-info {
 	height: 50vh;
+	background-color: #4CAF50;
 }
 
 .reservation {
 	height: 25vh;
 }
 
-/* add a deli pattern background*/
+
 .reservation-form-container {
 	position: relative;
-	height: 100%;
+	height: 100%;	
 }
 
 .reservation-form {
