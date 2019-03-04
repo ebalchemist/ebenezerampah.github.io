@@ -19,7 +19,7 @@ $('.reservation-day li').click(function() {
 });
 
 // when clicked, the name data should be set
-// and all data should be sent to your database
+// and all data should be sent to the database
 $('.reservations').on('submit', function(event) {
   // prevent reloading
   event.preventDefault();
